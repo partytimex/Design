@@ -1,18 +1,15 @@
 {
-  "name": "f2e-workflow",
-  "description": "f2e-workflow is a cross-platform, efficient, smooth workflow for F2E project based on Grunt.",
+  "name": "nmg-workflow",
+  "description": "nmg-workflow is a cross-platform, efficient, smooth workflow for F2E project based on Grunt.",
   "version": "1.5.6",
-  "homepage": "https://github.com/hzlzh/f2e-workflow",
+  "homepage": "https://github.com/partytimex/Design",
   "author": {
-    "name": "hzlzh",
-    "url": "https://github.com/hzlzh"
+    "name": "Party lam",
+    "url": "https://github.com/partytimex"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/hzlzh/f2e-workflow.git"
-  },
-  "bugs": {
-    "url": "https://github.com/hzlzh/f2e-workflow/issues"
+    "url": "git://github.com/partytimex/Design.git"
   },
   "licenses": [
     {
@@ -24,7 +21,7 @@
     "node": ">= 0.8.0"
   },
   "scripts": {
-    "test": "grunt test"
+    "template": "grunt template"
   },
   "dependencies": {
     "grunt": "~0.4.2",

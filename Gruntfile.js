@@ -1,9 +1,3 @@
-/**
- * f2e-workflow v1.5.6
- * https://github.com/Mobile-Team/f2e-workflow
- * @hzlzh <hzlzh.dev@gmail.com>
- */
-
 // grunt-timer 返回各个task的执行时间
 var timer = require("grunt-timer");
 
@@ -281,8 +275,8 @@ module.exports = function (grunt) {
     // 注：拷贝移动 slice -> 合并雪碧图 sprite -> CSS 压缩
     grunt.registerTask('sprite-cssmin', ['copy:slice', 'sprite', 'cssmin']);
 
-    // for test build
-    grunt.registerTask('test', ['all', 'compress', 'clean:release']);
+    // for template build
+    grunt.registerTask('template', ['all', 'compress', 'clean:release']);
 
     // 定义别名 `grunt 2x2x`
     // 注：@2x 图 生成 @1x 图
