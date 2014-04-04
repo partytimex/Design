@@ -1,0 +1,118 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link rel="stylesheet" href="css/mobile.css" media="all" />
+        <title></title>
+    </head>
+
+    <body>
+        <div class="wrap">
+            <div class="header">
+                <div class="inner_1"></div>
+                <div class="inner_2"></div>
+            </div>
+            <div class="main">
+                <div class="form_box">
+                    <p class="title">
+                        中文姓名（以身份證爲準）：
+                        <input type="text" class="ipt_name_cn"/>
+                    </p>
+                    <p class="title">
+                        英文姓名（以身份證爲準）：
+                        <input type="text" class="ipt_name_en"/>
+                    </p>
+                    <p class="title">
+                        身份證號碼
+                        <input type="text" class="ipt_id"/>
+                        (英文字母及首3個數字)
+                    </p>
+                    <p class="title">
+                        聯絡電話：
+                        <input type="text" class="ipt_tel"/>
+                    </p>
+                    <p class="title">
+                        電郵：
+                        <input type="text" class="ipt_mail"/>
+                    </p>
+                    <p class="title">
+                        購物單據編號：
+                        <input type="text" class="ipt_list"/>
+                        <span class="small">(購買日期必須為3月31日至4月20日期間)</span>
+                    </p>
+                    <p class="title">
+                       <span class="code">驗證碼：</span> 
+                        <input type="text" class="ipt_code_1"/>
+                        <input type="text" class="ipt_code_2"/>
+                    </p>
+                    <p class="title">
+                        爲什麽想參加 Special x 黃心穎 星級空中瑜伽Workshop？（於30字內）：
+                        <textarea class="reason">
+                        
+                    </textarea>
+                    </p>
+                    <h2 class="title">條款及細則</h2>
+                    <div id="scrollbox" class="j_scrollbox">
+                        <div id="cntwrap" class="j_cntwrap">
+                            <div class="j_cntbox">
+
+                                <ul class="list">
+                                    <li>
+                                        1. 所有遊戲參加者必須先成為 E-Max Facebook專頁的粉絲，並需登入以參加遊戲。
+
+                                    </li>
+                                    <li>
+                                        2. 每個手提電話號碼只可得獎一次。重複登記的紀錄將會自動取消。
+                                    </li>
+                                    <li>
+                                        3. 本活動如有任何因電腦、網路、電話、技
+                                    </li>
+                                    <li>
+                                        1. 所有遊戲參加者必須先成為 E-Max Facebook專頁的粉絲，並需登入以參加遊戲。
+
+                                    </li>
+                                    <li>
+                                        2. 每個手提電話號碼只可得獎一次。重複登記的紀錄將會自動取消。
+                                    </li>
+                                    <li>
+                                        3. 本活動如有任何因電腦、網路、電話、技
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cb_box">
+                        <p class="cb_p">
+                            <input id="agree_1" type="checkbox" class="ipt_cb" />
+                            <label for="agree_1">本人已細閱及同意以上條款及細則，以及私隱政策。<br>
+<span>詳情：</span><a class="link_1" href="http://www.nmg.com.hk/privacy
+" target="_blank">http://www.nmg.com.hk/privacy</a><br>
+   <a class="link_2" href="http://www.nmg.com.hk/privacy
+" target="_blank">http://www.specialk.com.hk/privacy.aspx</a></label>
+                        </p>
+                    </div>
+                    
+                <a href="###" class="btn btn_submit"></a>
+                <a href="###" class="btn btn_reset"></a>
+                </div>
+              
+            </div>
+        </div>
+    </body>
+
+        <script src="js/iscroll.js"></script>
+        <script src="js/fitScreen_callback.js"></script>
+        <script type="text/javascript">
+            var callBack = function() {
+                myScroll = new iScroll('cntwrap');
+                //window.addEventListener('load', loaded, false);
+
+            }
+            window.onload = function() {
+                
+                fitScreen(640, {
+                    cb : callBack
+                });
+            };
+            </script>
+</html>
