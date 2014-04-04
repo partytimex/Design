@@ -1,8 +1,7 @@
-## f2e-workflow  [![GitHub version](https://badge.fury.io/gh/hzlzh%2Ff2e-workflow.png)](http://badge.fury.io/gh/hzlzh%2Ff2e-workflow) [![devDependency Status](https://david-dm.org/hzlzh/f2e-workflow/dev-status.png?theme=shields.io)](https://david-dm.org/hzlzh/f2e-workflow#info=devDependencies)
+## nmg-workflow  
 
-**f2e-workflow** is a cross-platform, efficient, smooth workflow for F2E project based on [Grunt].
-
-*[Chinese(zh_CN) README.md available.](https://github.com/hzlzh/Grunt-Workflow/blob/master/README-zh_CN.md)*   
+**nmg-workflow** is a cross-platform, efficient, smooth workflow for F2E project based on [Grunt].
+ 
 
 ###Table of contents
 
@@ -19,8 +18,6 @@
 
 4 quick start options are available:
 
-- [Download the latest release](https://github.com/hzlzh/f2e-workflow/archive/master.zip).
-- Clone the repo: `git clone git@github.com:hzlzh/f2e-workflow.git`
 - Install with [yeoman](http://yeoman.io/) or custom it according to repo: [generator-f2e] : 
     - `npm install -g generator-f2e`
     - `yo f2e`
@@ -33,7 +30,7 @@ Read the [Getting Started page] and [wiki list] for more.
 Within the download you'll find the following directories and files, you'll see something like this:
 
 ```
-f2e-workflow/
+nmg-workflow/
 │
 ├── package.json                // Project dependance
 ├── Gruntfile.js                // Grunt task config
@@ -65,7 +62,7 @@ f2e-workflow/
         └── demo.png
 ```
 
-After run `f2e-workflow`, you'll get `../publish` which is the final output.
+After run `nmg-workflow`, you'll get `../publish` which is the final output.
 
 ### System Environment
 
@@ -155,16 +152,10 @@ Output folder: ../publish/(css/ + img/ + slice/)
 
 ### Demo
 
-Command line demo is below,  
-*Also a GUI tools is ready, check [Mobile-Team / spock](https://github.com/Mobile-Team/spock)*
+Command line demo is below, 
 
 ![Demo](https://f.cloud.github.com/assets/1049575/2406255/386e803c-aa67-11e3-982b-36590d24f459.gif)
 
-
-### Know Issues
-
-* Images diff under `Mac OS` & `Win` is known from this [\[#issues\]](https://github.com/zauni/pngmin/issues/6)
-* No sprite task when you are doing a debug workflow, just run `grunt debug` if needed.
 
 ### License
 
@@ -172,10 +163,3 @@ Released under [MIT] LICENSE
 
 [MIT]: http://rem.mit-license.org/
 [Grunt]: http://gruntjs.com/
-[Getting Started page]: https://github.com/hzlzh/f2e-workflow#details
-[wiki list]: https://github.com/hzlzh/f2e-workflow/issues
-[Brew]: http://brew.sh/
-[Node.js]: http://nodejs.org/
-[GraphicsMagick]: http://www.graphicsmagick.org/
-[generator-f2e]: https://github.com/hzlzh/generator-f2e 'Generator F2E'
-[Phantomjs]: http://phantomjs.org/
