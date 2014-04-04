@@ -21,7 +21,7 @@
     "node": ">= 0.8.0"
   },
   "scripts": {
-    "template": "grunt template"
+    "test": "grunt template"
   },
   "dependencies": {
     "grunt": "~0.4.2",
